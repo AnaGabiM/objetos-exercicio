@@ -13,3 +13,13 @@ const filme = {
 };
 
 // respostas aqui ⬇️
+const primeiroAtor = filme.elenco[0];
+console.log(primeiroAtor)
+
+const ultimoAtor = filme.elenco[3];
+console.log(ultimoAtor)
+
+console.log(filme.transmissoesHoje)
+
+const canalBrasil = filme.transmissoesHoje[1]
+console.log(canalBrasil)
